@@ -59,7 +59,7 @@ btnRoll.addEventListener('click', function () {
 
     // 2. Mostrar a figura do dado
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `./imgs/dice-${dice}.png`;
 
     // 3. Checar se o resultado foi 1
     if (dice !== 1) {
